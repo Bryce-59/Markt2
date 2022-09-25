@@ -6,11 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".ui.selling.SellingFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-
+    <!-- This is the "sell" fragment, where the
+     user can list information about their item and list it for sale -->
 
     <TextView
         android:id="@+id/user_add_one"
+        android:gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="43dp"
@@ -26,34 +27,37 @@
 
     <TextView
         android:id="@+id/user_add_two"
+        android:gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="109dp"
+        android:layout_marginStart="116dp"
         android:layout_marginTop="264dp"
+        android:layout_marginEnd="102dp"
         android:text="@string/add_desc"
         android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/enter_desc"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/enter_item"
+        android:gravity="center"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@+id/user_add_two"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/user_add_one"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/user_add_one" />
 
     <EditText
         android:id="@+id/enter_desc"
+        android:gravity="center"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
         app:layout_constraintBottom_toTopOf="@+id/button_remove"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/user_add_two" />
 

@@ -5,8 +5,8 @@
     <string name="title_user">Me</string>
     <string name="user_hello">Hello! Your name is</string>
     <string name="user_contact">Your contact information is</string>
-    <string name="seller_list">Add?</string>
-    <string name="seller_delist">Remove.</string>
+    <string name="seller_list">Upload Image</string>
+    <string name="seller_delist">Add</string>
     <string name="add_item">What item do you want to sell?</string>
     <string name="add_desc">Describe the item.</string>
     <string name="user_city">Your city of residence is</string>

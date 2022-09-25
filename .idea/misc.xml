@@ -3,9 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Bryce Richardson/Documents/cs71m-lab3-master/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.128" />
+        <entry key="..\:/Users/Bryce Richardson/Documents/cs71m-lab3-master/app/src/main/res/drawable/ic_baseline_local_grocery_store_24.xml" value="0.1305" />
+        <entry key="..\:/Users/Bryce Richardson/Documents/cs71m-lab3-master/app/src/main/res/drawable/ic_launcher_background.xml" value="0.128" />
+        <entry key="..\:/Users/Bryce Richardson/Documents/cs71m-lab3-master/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.169" />
+        <entry key="..\:/Users/Bryce Richardson/Documents/cs71m-lab3-master/app/src/main/res/layout/activity_item_detail.xml" value="0.1171875" />
+        <entry key="..\:/Users/Bryce Richardson/Documents/cs71m-lab3-master/app/src/main/res/layout/activity_main.xml" value="0.1171875" />
+        <entry key="..\:/Users/Bryce Richardson/Documents/cs71m-lab3-master/app/src/main/res/layout/fragment_home.xml" value="0.1171875" />
         <entry key="..\:/Users/Bryce Richardson/Documents/cs71m-lab3-master/app/src/main/res/layout/fragment_marketplace.xml" value="0.1" />
         <entry key="..\:/Users/Bryce Richardson/Documents/cs71m-lab3-master/app/src/main/res/layout/fragment_selling.xml" value="0.16666666666666666" />
-        <entry key="..\:/Users/Bryce Richardson/Documents/cs71m-lab3-master/app/src/main/res/layout/fragment_user.xml" value="0.22" />
+        <entry key="..\:/Users/Bryce Richardson/Documents/cs71m-lab3-master/app/src/main/res/layout/fragment_user.xml" value="0.21518987341772153" />
       </map>
     </option>
   </component>
